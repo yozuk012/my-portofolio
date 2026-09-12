@@ -1,7 +1,5 @@
 import { FiArrowLeft, FiArrowUpRight, FiLayers } from "react-icons/fi";
 import Link from "next/link";
-import Footer from "../../components/layout/Footer";
-import Navbar from "../../components/layout/Navbar";
 import { portfolioData } from "../../data/portfolioData";
 
 export const metadata = {
@@ -18,7 +16,6 @@ const statusLabels = {
 export default function ProjectsPage() {
   return (
     <div id="top">
-      <Navbar />
       <main className="projects-page">
         <section className="section-shell projects-page-hero">
           <Link className="back-link" href="/"><FiArrowLeft aria-hidden="true" /> Back home</Link>
@@ -40,7 +37,6 @@ export default function ProjectsPage() {
           ))}
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

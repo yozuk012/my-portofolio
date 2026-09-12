@@ -1,0 +1,44 @@
+my-portofolio
+├── public
+│   └── pic-me.jpg
+├── src
+│   ├── app
+│   │   ├── contact
+│   │   │   └── page.js
+│   │   ├── experience
+│   │   │   └── page.js
+│   │   ├── projects
+│   │   │   └── page.js
+│   │   ├── skills
+│   │   │   └── page.js
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.js
+│   ├── components
+│   │   ├── home
+│   │   │   ├── EducationSection.js
+│   │   │   ├── ExperienceSection.js
+│   │   │   ├── HeroSection.js
+│   │   │   ├── ProjectShowcase.js
+│   │   │   └── SkillsSection.js
+│   │   └── layout
+│   │       ├── Footer.js
+│   │       └── Navbar.js
+│   ├── data
+│   │   └── portfolioData.js
+│   └── lib
+│       └── supabase.js
+├── .env.local
+├── .gitignore
+├── .hintrc
+├── AGENTS.md
+├── CLAUDE.md
+├── eslint.config.mjs
+├── Experience.md
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tree.txt
