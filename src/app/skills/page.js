@@ -1,7 +1,5 @@
 import { FiArrowLeft, FiCode } from "react-icons/fi";
 import Link from "next/link";
-import Footer from "../../components/layout/Footer";
-import Navbar from "../../components/layout/Navbar";
 import { portfolioData } from "../../data/portfolioData";
 
 export const metadata = {
@@ -28,7 +26,6 @@ const skillDescriptions = {
 export default function SkillsPage() {
   return (
     <div id="top">
-      <Navbar />
       <main className="skills-page">
         <section className="section-shell skills-page-hero">
           <Link className="back-link" href="/"><FiArrowLeft aria-hidden="true" /> Back home</Link>
@@ -53,7 +50,6 @@ export default function SkillsPage() {
           ))}
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

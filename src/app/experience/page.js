@@ -1,7 +1,5 @@
 import { FiArrowLeft, FiBriefcase } from "react-icons/fi";
 import Link from "next/link";
-import Footer from "../../components/layout/Footer";
-import Navbar from "../../components/layout/Navbar";
 import { portfolioData } from "../../data/portfolioData";
 
 export const metadata = {
@@ -12,7 +10,6 @@ export const metadata = {
 export default function ExperiencePage() {
   return (
     <div id="top">
-      <Navbar />
       <main className="experience-page">
         <div className="experience-page-shell">
           <aside className="experience-page-intro">
@@ -39,7 +36,6 @@ export default function ExperiencePage() {
           </section>
         </div>
       </main>
-      <Footer />
     </div>
   );
 }

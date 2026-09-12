@@ -1,7 +1,5 @@
 import { FiArrowLeft, FiArrowUpRight, FiInstagram, FiMail, FiMapPin, FiMessageCircle } from "react-icons/fi";
 import Link from "next/link";
-import Footer from "../../components/layout/Footer";
-import Navbar from "../../components/layout/Navbar";
 
 export const metadata = {
   title: "Contact | Achmad Aldino",
@@ -11,7 +9,6 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <div id="top">
-      <Navbar />
       <main className="contact-page">
         <section className="section-shell contact-shell">
           <div className="contact-intro">
@@ -37,7 +34,6 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }
