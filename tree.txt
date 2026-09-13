@@ -3,6 +3,31 @@ my-portofolio
 │   └── pic-me.jpg
 ├── src
 │   ├── app
+│   │   ├── actions
+│   │   │   ├── skillActions.js
+│   │   │   ├── updateProfile.js
+│   │   │   └── uploadImage.js
+│   │   ├── admin
+│   │   │   ├── contact
+│   │   │   │   └── page.js
+│   │   │   ├── experience
+│   │   │   │   └── page.js
+│   │   │   ├── home
+│   │   │   │   ├── section_education
+│   │   │   │   ├── section_experience
+│   │   │   │   ├── section_hero
+│   │   │   │   │   └── page.js
+│   │   │   │   ├── section_project
+│   │   │   │   ├── section_skills
+│   │   │   │   │   └── page.js
+│   │   │   │   └── page.js
+│   │   │   ├── projects
+│   │   │   │   └── page.js
+│   │   │   ├── skills
+│   │   │   │   └── page.js
+│   │   │   └── page.js
+│   │   ├── auth
+│   │   │   └── page.js
 │   │   ├── contact
 │   │   │   └── page.js
 │   │   ├── experience
@@ -26,8 +51,9 @@ my-portofolio
 │   │       └── Navbar.js
 │   ├── data
 │   │   └── portfolioData.js
-│   └── lib
-│       └── supabase.js
+│   ├── lib
+│   │   └── supabase.js
+│   └── middleware.js
 ├── .env.local
 ├── .gitignore
 ├── .hintrc
